@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan EMI Calculator Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="container">
+        <div class="heading">
+            <h1>LOAN EMI CALCULATOR</h1>
+        </div>
+        
+        <div class="flex-box">
+            <div class="small-container">
+                <label for="loan-amount">Loan Amount</label><br>
+                <input type="number" placeholder="enter amount in rupees" id="loan-amount" class=""><br>
+                <label for="interest-rate">Interest Rate in %</label><br>
+                <input type="number" placeholder="enter interest-rate in %" id="interest-rate" class=""><br>
+                <label for="months-to-pay">Tenure in Months</label><br>
+                <input type="number" placeholder="enter number of months" id="months-to-pay" class=""><br>
+                <div class="div">
+                    <button id="button" class="button">CALCULATE</button>
+                </div>
+                <div id="result"></div>
+            </div>
+        </div>
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html>

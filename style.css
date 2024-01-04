@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+.container{
+    max-width: 500px;
+    width: 50%;
+    margin: 5rem auto;
+    background: #c8d2d6d7;
+    padding: 2rem 0;
+    border-radius: 3.5rem 0 3.5rem 0;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 0.4rem;
+    margin: 1.5rem;
+    font-weight: 500;
+}
+.flex-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-container{
+    flex-basis: 48%;
+    font-size: 1.6rem;
+    margin: 1.2rem;
+}
+
+#loan-amount, #interest-rate, #months-to-pay {
+    width: 100%;
+    padding: 1.2rem;
+    height: 40px;
+    margin: 1rem 0;
+    border-radius: 1.5rem 0 1.5rem 0;
+    background: #F5f5f5;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.div{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    border: 2px solid #5a6694;
+    display: block;
+    color: #1e19ba;
+    font-size: 2.2rem;
+    padding: 0.4rem;
+    margin: 1.5rem;
+    text-align: center;
+    border-radius: 1rem 0 1rem 0;
+    font-weight: 500;
+    cursor: pointer;
+    width: 140px;
+    height: 40px;
+}
+
+.button:hover{
+    background-color:#427093;
+    color: #f5f5f5;
+}
