@@ -1,4 +1,4 @@
-# Loan Calculator Web App
+# Loan EMI Calculator Application
 A single web-page which shows monthly emi amount to be paid by user based on amount and interest percentage calculation.
 
 ## 🛠 Skills
